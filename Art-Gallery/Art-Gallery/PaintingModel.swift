@@ -10,7 +10,7 @@ import UIKit
 
 class PaintingModel: NSObject, UITableViewDataSource, PaintingTableViewCellDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
+        return 5
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -20,7 +20,19 @@ class PaintingModel: NSObject, UITableViewDataSource, PaintingTableViewCellDeleg
     func tappedLikeButton(on cell: PaintingTableViewCell) {
         <#code#>
     }
+    var paintings : [Painting] = []
+    var paintingNumbers : [UIImage] = []
     
+    
+    init(paintings: Painting){
+        
+        for image in 1...12 {
+            
+            paintingNumbers.append(UIImage(named: "Image\(image).jpg")!)
+        }
+        
+        
+    }
     
 }
 
