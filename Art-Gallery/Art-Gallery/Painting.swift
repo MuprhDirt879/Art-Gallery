@@ -9,7 +9,7 @@
 import UIKit
 
 struct Painting {
-    let image: UIImage
+    var image: UIImage
     var isLiked: Bool = false
 }
 

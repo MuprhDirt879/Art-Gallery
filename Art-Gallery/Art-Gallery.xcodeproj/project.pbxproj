@@ -16,6 +16,7 @@
 		44C216862271116B00DC193D /* Painting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C216852271116B00DC193D /* Painting.swift */; };
 		44C21688227111D200DC193D /* PaintingTableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C21687227111D200DC193D /* PaintingTableViewCellDelegate.swift */; };
 		44C2168A227111E900DC193D /* PaintingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C21689227111E900DC193D /* PaintingModel.swift */; };
+		D14F7B2A22712A1000CCA163 /* PaintingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14F7B2922712A1000CCA163 /* PaintingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		44C216852271116B00DC193D /* Painting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Painting.swift; sourceTree = "<group>"; };
 		44C21687227111D200DC193D /* PaintingTableViewCellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingTableViewCellDelegate.swift; sourceTree = "<group>"; };
 		44C21689227111E900DC193D /* PaintingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingModel.swift; sourceTree = "<group>"; };
+		D14F7B2922712A1000CCA163 /* PaintingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,15 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				44C2166F22710A0700DC193D /* AppDelegate.swift */,
-				44C2167122710A0700DC193D /* PaintingViewController.swift */,
 				44C2167322710A0700DC193D /* Main.storyboard */,
 				44C2167622710A0900DC193D /* Assets.xcassets */,
 				44C2167822710A0900DC193D /* LaunchScreen.storyboard */,
 				44C2167B22710A0900DC193D /* Info.plist */,
+				44C2167122710A0700DC193D /* PaintingViewController.swift */,
 				44C2168322710E5800DC193D /* PaintingTableViewCell.swift */,
 				44C216852271116B00DC193D /* Painting.swift */,
 				44C21687227111D200DC193D /* PaintingTableViewCellDelegate.swift */,
 				44C21689227111E900DC193D /* PaintingModel.swift */,
+				D14F7B2922712A1000CCA163 /* PaintingController.swift */,
 			);
 			path = "Art-Gallery";
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				44C2168A227111E900DC193D /* PaintingModel.swift in Sources */,
 				44C2167022710A0700DC193D /* AppDelegate.swift in Sources */,
 				44C2168422710E5800DC193D /* PaintingTableViewCell.swift in Sources */,
+				D14F7B2A22712A1000CCA163 /* PaintingController.swift in Sources */,
 				44C216862271116B00DC193D /* Painting.swift in Sources */,
 				44C21688227111D200DC193D /* PaintingTableViewCellDelegate.swift in Sources */,
 			);
